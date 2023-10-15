@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.typography-body {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 25%;
+}
+
+.head-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.head-section button {
+  border: none;
+  border-radius: 0.3rem;
+  background: none;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.75rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.main-section {
+  padding: 1.3rem;
+}
+
+.select-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.select-section select {
+  outline: none;
+  border-radius: 0.2rem;
+  width: 40%;
+  padding: 0.5rem;
+}
+
+.range-section {
+  line-height: 0;
+  margin-bottom: 1rem;
+}
+
+.measurement-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.measurement-name p span {
+  margin-right: 1rem;
+}
+
+.measurement-name select {
+  outline: none;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+}
+
+.measurement-unit {
+  display: grid;
+  grid-template-columns: 75% 20%;
+  column-gap: 5%;
+}
+
+.measurement-unit input {
+  outline: none;
+  padding: 0.5rem;
+}
+
+.results-section {
+  width: 25%;
+  padding: 3rem;
+}
