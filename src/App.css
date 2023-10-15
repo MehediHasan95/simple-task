@@ -84,4 +84,6 @@ main {
 .results-section {
   width: 25%;
   padding: 3rem;
+  display: flex;
+  column-gap: 2rem;
 }

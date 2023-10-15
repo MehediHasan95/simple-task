@@ -28,7 +28,7 @@ function App() {
     fontFamily: "",
     size: 0,
     sizeUnit: "px",
-    weight: 0,
+    weight: "",
     transform: "",
     style: "",
     decoration: "",
@@ -143,6 +143,9 @@ function App() {
                 })
               }
             >
+              <option selected disabled>
+                Pick one
+              </option>
               <option value="Roboto">Roboto</option>
               <option value="Poppins">Poppins</option>
               <option value="Lato">Lato</option>
@@ -163,6 +166,9 @@ function App() {
                   })
                 }
               >
+                <option selected disabled>
+                  Unit
+                </option>
                 <option value="px">px</option>
                 <option value="em">em</option>
                 <option value="rem">rem</option>
@@ -197,6 +203,9 @@ function App() {
                 })
               }
             >
+              <option selected disabled>
+                Pick one
+              </option>
               <option value="Regular 400">Regular 400</option>
               <option value="Medium 500">Medium 500</option>
               <option value="SemiBold 600">SemiBold 600</option>
@@ -231,6 +240,9 @@ function App() {
                 })
               }
             >
+              <option selected disabled>
+                Pick one
+              </option>
               <option value="Inline">Inline</option>
               <option value="Internal">Internal</option>
               <option value="External">External</option>
@@ -248,6 +260,9 @@ function App() {
                 })
               }
             >
+              <option selected disabled>
+                Pick one
+              </option>
               <option value="Overline">Overline</option>
               <option value="Underline">Underline</option>
               <option value="Line Through">Line Through</option>
@@ -268,6 +283,9 @@ function App() {
                   })
                 }
               >
+                <option selected disabled>
+                  Unit
+                </option>
                 <option value="px">px</option>
                 <option value="em">em</option>
                 <option value="rem">rem</option>
@@ -305,6 +323,9 @@ function App() {
                   })
                 }
               >
+                <option selected disabled>
+                  Unit
+                </option>
                 <option value="px">px</option>
                 <option value="em">em</option>
                 <option value="rem">rem</option>
@@ -342,6 +363,9 @@ function App() {
                   })
                 }
               >
+                <option selected disabled>
+                  Unit
+                </option>
                 <option value="px">px</option>
                 <option value="em">em</option>
                 <option value="rem">rem</option>
